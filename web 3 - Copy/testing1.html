@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portofolio</title>
+</head>
+
+<body>
+  <header>
+    <h1>Testing 1</h1>
+    <!-- Ini Ikon Hamburger -->
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <!-- ini Menu Box -->
+    <ul class="menu" id="menu">
+      <li><a href="#wajah halaman">Awal halaman</a></li>
+      <li><a href="#tentangku">Tentangku</a></li>
+      <li><a href="#galeri">Galeri</a></li>
+    </ul>
+  </header>
+  <nav id="wajah halaman">
+    <h1 class="h1">SELAMAT DATANG DI<br><span>WEBSITEKU</span></h1>
+    <p>ini adalah web yang dibuat oleh Ammar</p>
+  </nav>
+  <article id="tentangku">
+    <div class="about">
+      <img class="image" src="img/cat thinking.jpg" alt="cat thinking">
+      <div class="about-text">
+        <h2 class="h2">About me</h2>
+        <h4 class="h4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non orci ac magna ultrices sagittis eu ac leo.
+          Integer a pharetra nibh. Duis quis tellus sit amet tellus blandit lacinia non id nisl. Aenean tincidunt congue
+          lorem sit amet pulvinar. Vestibulum tortor ipsum, efficitur a hendrerit quis, tempor nec neque. Nunc et
+          pellentesque velit, in facilisis nisl. Pellentesque sed libero mauris. Phasellus sed turpis magna.
+          Pellentesque sed sagittis turpis. Etiam faucibus accumsan elit id pharetra. Curabitur aliquet odio vitae
+          sagittis tristique. Sed cursus mauris purus, et molestie felis gravida eget. Quisque venenatis leo et laoreet
+          tristique. Curabitur interdum egestas tellus eu aliquam.<br>
+          Integer in magna sapien. Nullam dui nulla, vehicula eget luctus ac, semper eu ligula. Aliquam sapien est,
+          viverra vitae ex nec, sodales iaculis ex. Nullam nisl massa, vestibulum sit amet tempus eu, laoreet id orci.
+          Pellentesque dictum ultricies ultrices. Nam vehicula magna eget odio congue, luctus feugiat purus luctus.
+          Morbi sed fermentum eros. Pellentesque bibendum neque ac pretium maximus. Cras fermentum risus eget tortor
+          dignissim ultricies. Etiam purus ligula, ultricies lobortis orci sit amet, ornare lobortis mauris. Donec
+          mattis erat et vulputate faucibus. Donec gravida nisi sem, sed fermentum risus aliquam auctor.<br>
+          Integer nec mi vel arcu consectetur dictum a ac eros. Nullam at volutpat leo, sed tempus tortor. Maecenas
+          pharetra volutpat velit, rutrum lobortis tellus euismod sed. Nulla facilisi. Nunc vel ligula nec odio dapibus
+          placerat sed consectetur nisi. Sed nunc leo, volutpat vitae semper nec, consectetur vitae metus. Fusce
+          vestibulum, erat non convallis bibendum, lacus diam sagittis dolor, at venenatis magna odio a orci. Curabitur
+          in magna sit amet odio vulputate sollicitudin. Proin vel hendrerit sapien, non blandit libero. Sed ipsum
+          lectus, luctus eget mollis in, varius in eros.<br>
+        </h4>
+      </div>
+    </div>
+  </article>
+  <section id="galeri">
+    <div class="nav-gallery">
+      <H1>Galeri</H1><br>
+      <img src="img/f1b54406-a0a1-41f4-9e87-c02e38750689.jpg" alt="william dafoe">
+      <img src="img/sticker wa.jpg" alt="cihuy">
+      <img src="img/download.jpg" alt="pemandangan">
+      <img src="img/cat thinking.jpg" alt="cat thinking">
+      <img src="img/Screenshot 2025-09-14 203411.png" alt="sinclair">
+      <img src="img/Screenshot 2025-09-14 205056.png" alt="gregor">
+      <img src="img/martin-adams-pTCcJSBOTxY-unsplash.jpg" alt="pemandangan kota">
+    </div>
+  </section>
+  <footer>
+    <div class="footer-left">© 2025 Copyright</div>
+    <div class="footer-center">
+      <img src="img/instagram.png" alt="Instagram" class="social-icon">
+      <img src="img/youtube.png" alt="YouTube" class="social-icon">
+      <img src="img/mail.png" alt="Mail" class="social-icon">
+      <img src="img/facebook.png" alt="Facebook" class="social-icon">
+      <img src="img/whatsapp.png" alt="whatsapp" class="social-icon">
+    </div>
+    <div class="footer-right">2025/10/25</div>
+  </footer>
+
+  <!-- JavaScript Toggle -->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("menu");
+      menu.classList.toggle("show");
+    }
+    function toggleMenu() {
+      const menu = document.getElementById("menu");
+      const toggle = document.querySelector(".menu-toggle");
+      menu.classList.toggle("show");
+      toggle.classList.toggle("active");
+    }
+  </script>
+</body>
+
+</html>
